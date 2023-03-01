@@ -1,0 +1,89 @@
+
+
+.App {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(165, 159, 159);
+}
+
+.header {
+  margin-left: 30px;
+  flex: 30%;
+  width: 100%;
+  display: flex;
+}
+
+.descriptionContainer {
+  margin-left: 50px;
+}
+
+.header button {
+  margin-left: 50px;
+  height: 20px;
+  margin-top: 62px;
+  cursor: pointer;
+}
+
+.descriptionContainer input {
+  width: 250px;
+}
+
+.titleContainer input {
+  width: 250px;
+}
+
+.todoList {
+  flex: 70%;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.task {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  color:  black;
+  margin: 15px;
+}
+
+.task .content {
+  flex: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task .content span {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  border-right: none;
+  background-color: rgb(143, 142, 142);
+}
+
+.task input {
+  border: none;
+  background-color: rgb(143, 142, 142);
+}
+
+.todoList-header h3 {
+  justify-content: space-between;
+  margin-left: 60px;
+}
+
+.todoList-header {
+  display: flex;
+}
+
+
+
